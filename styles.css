@@ -1,0 +1,56 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+}
+body {
+    height:100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:grey;
+}
+.titleCard{
+    color:rgb(181, 174, 174);
+    width:240px;
+    min-height:500px;
+    background-color:rgb(53, 52, 52);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:20px;
+
+}
+.information, .container, .icon{
+    text-align:center;
+    padding:5px;
+}
+.information h4,h5{
+    font-size:12px;
+}
+.container {
+    background-color:;
+}
+.about,
+.interests{
+    text-align:left;
+    margin-left:10px;
+    padding:10px;
+}
+.icon {
+    display:flex;
+    justify-content:space-between;
+    margin-left:20px;
+    margin-right:20px;
+    padding:10px;
+}
+.icon img {
+    max-width:30px;
+}
+.container button{
+    border-radius:5px;
+    border:none;
+    margin-left:15px;
+    margin-right:15px;
+    padding:5px;
+}
+.container button:hover{
+    background-color:aquamarine;
+    
+}
