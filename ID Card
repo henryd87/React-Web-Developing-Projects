@@ -1,0 +1,38 @@
+//Using React
+
+function TempName() {
+    return (
+        <div className="titleCard">
+        <img src="./images/hot man.jpeg" width="240px"></img>
+        <div className="information">
+        <h2>Henry Conrad</h2>
+        <h4>Frontend Developer</h4>
+        <h5>loserlane 45 @msodm</h5>  
+        </div>     
+        <div className="container">
+            <button>Email</button>
+            <button>LinkedIn</button>
+        </div>
+        <div className="about">
+        <h3>About</h3>
+        <p>lorem dsijdfhef efijefwiefwif eidjsijefwijewijefwijiewfjiefife</p>
+        </div>
+        <div className="interests">
+        <h3>Interests</h3>
+        <p>lorem dsijdfhef efijefwiefwif eidjsijefwijewijefwijiewfjiefife</p>
+        </div>
+        <div className="icon">
+        <h3><img src="./images/Twitter-logo.svg.png"></img></h3>
+        <h3><img src="./images/Facebook_f_logo_(2021).svg.png"></img></h3>
+        <h3><img src="./images/Twitter-logo.svg.png"></img></h3>
+        <h3><img src="./images/Facebook_f_logo_(2021).svg.png"></img></h3>
+
+        </div>
+        </div>
+    )
+}
+
+
+ReactDOM.render(<TempName />, document.getElementById("root"));
+
+
